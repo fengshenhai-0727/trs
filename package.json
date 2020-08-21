@@ -1,0 +1,26 @@
+{
+    "name": "trs",
+    "version": "1.0.0",
+    "main": "src/app.tsx",
+    "repository": "https://github.com/fengshenhai-0727/trs.git",
+    "author": "冯深海 <fengshenhai@admaster.com.cn>",
+    "license": "MIT",
+    "scripts": {
+        "dev": "webpack-dev-server --open",
+        "build": "webpack"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.1",
+        "@babel/plugin-transform-react-jsx": "^7.10.4",
+        "@babel/preset-env": "^7.11.0",
+        "@babel/preset-typescript": "^7.10.4",
+        "@types/react": "^16.9.46",
+        "babel-loader": "^8.1.0",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "prettier": "^2.0.5",
+        "typescript": "^3.9.7",
+        "webpack": "^4.44.1",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.0"
+    }
+}
